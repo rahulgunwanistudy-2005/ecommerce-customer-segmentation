@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Ignore the data folder
+/data
+
+# Ignore macOS system files
+.DS_Store
+
 # C extensions
 *.so
 
