@@ -4,8 +4,7 @@
 
 An end-to-end data science project that segments e-commerce customers using unsupervised machine learning and predicts churn with a supervised classification model. The results are presented in an interactive Streamlit dashboard designed for a marketing team.
 
-Live Demo: [your-app-name.streamlit.app](https://your-app-name.streamlit.app)
-*(Replace the link above with your actual deployed app URL)*
+Live Demo: https://customer-segmentation-analytics.streamlit.app
 
 ---
 
