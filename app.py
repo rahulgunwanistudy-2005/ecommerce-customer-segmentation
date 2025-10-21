@@ -55,7 +55,7 @@ with col2:
     cluster_profile = df.groupby('Cluster').agg({
         'Recency': 'mean',
         'Frequency': 'mean',
-        'Montery': 'mean', 
+        'Monetary': 'mean', 
         'Churn': 'mean'
     }).round(2)
     st.dataframe(cluster_profile)
