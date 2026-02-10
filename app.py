@@ -6,7 +6,6 @@ import seaborn as sns
 
 st.set_page_config(
     page_title="E-commerce Customer Dashboard",
-    page_icon="🛒",
     layout="wide"
 )
 
@@ -41,7 +40,7 @@ def plot_segment_distribution():
     return fig
 
 
-st.title("🛒 Dynamic Customer Segmentation & Churn Prediction")
+st.title(" Dynamic Customer Segmentation & Churn Prediction")
 
 st.header("Overall Customer Insights")
 col1, col2 = st.columns(2)
@@ -61,7 +60,7 @@ with col2:
     st.dataframe(cluster_profile)
 
 
-st.header("🔮 Predict Customer Churn")
+st.header("Predict Customer Churn")
 
 st.markdown("Enter customer data to predict their churn probability.")
 
